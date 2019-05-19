@@ -10,7 +10,7 @@ Quickstart
 
 Run the following commands to bootstrap your environment ::
 
-    git clone https://github.com/ryansmccoy/flask_app
+    git clone https://github.com/firephos/flask_app
     cd flask_app
     pip install -r requirements/dev.txt
     cp .env.example .env
