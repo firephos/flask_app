@@ -38,11 +38,14 @@ Deployment
 ----------
 
 To deploy::
+    heroku config:set FLASK_ENV=production
+    heroku config:set FLASK_DEBUG=0
+    heroku config:set DATABASE_URL=
+    heroku addons:create heroku-postgresql:hobby-dev
 
-    export FLASK_ENV=production
     export FLASK_DEBUG=0
-    export DATABASE_URL="<YOUR DATABASE URL>"
-    npm run build   # build assets with webpack
+    export DATABASE_URL=
+    heroku run npm run build   # build assets with webpack
     flask run       # start the flask server
 
 
