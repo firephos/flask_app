@@ -42,7 +42,9 @@ To deploy::
     heroku config:set FLASK_DEBUG=0
     heroku config:set DATABASE_URL=
     heroku addons:create heroku-postgresql:hobby-dev
-
+    git add .
+    git commit -m "update"
+    git push heroku master
     export FLASK_DEBUG=0
     export DATABASE_URL=
     heroku run npm run build   # build assets with webpack
