@@ -32,7 +32,7 @@ database tables and perform the initial migration ::
     flask db migrate
     flask db upgrade
     npm start
-
+    heroku config:set FLASK_APP=autoapp.py
 
 Deployment
 ----------
