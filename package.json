@@ -11,17 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryansmccoy/flask_app.git"
+    "url": "git+https://github.com/firephos/flask_app.git"
   },
-  "author": "Ryan S. McCoy",
+  "author": "Ryan firephos",
   "license": "MIT",
   "engines": {
     "node": ">=4"
   },
   "bugs": {
-    "url": "https://github.com/ryansmccoy/flask_app/issues"
+    "url": "https://github.com/firephos/flask_app/issues"
   },
-  "homepage": "https://github.com/ryansmccoy/flask_app#readme",
+  "homepage": "https://github.com/firephos/flask_app#readme",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "font-awesome": "^4.7.0",
